@@ -1,6 +1,6 @@
 # 🌈 Argyle
 
-The argyle golfing language is an esoteric programming language based on [brainfuck](https://en.wikipedia.org/wiki/Brainfuck#:~:text=The%20language%27s%20name%20is%20a,the%20boundaries%20of%20computer%20programming.).
+The argyle golfing language is an esoteric programming language based on [brainfuck](https://en.wikipedia.org/wiki/Brainfuck).
 
 ## Current ideas
 
