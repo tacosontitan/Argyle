@@ -23,6 +23,22 @@ The argyle golfing language is an esoteric programming language based on [brainf
 - `(` opens a capture group.
 - `)` closes the current capture group.
 
+## 🫙 Capture Group Issues
+
+In brainfuck, you're working with one cell at a time which really simplifies storage, but over complicates access. In argyle, capture groups enable developers to store multiple cells worth of data at a time for concise code:
+
+```argyle
+(abc)_
+```
+
+The command above will store `abc` at the current pointer's position. However, what happens when the developer increments that cell?
+
+```argyle
+(abc)_+
+```
+
+What should the resulting value be? Mentally, the simplest way to increment this and have it feel natural, is to treat it like a number where it would just become `abd` by incrementing `c` by one.
+
 ### Logic
 
 - `?` if.
