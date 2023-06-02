@@ -1,6 +1,8 @@
 # 🌈 Argyle
 
-The argyle golfing language is an esoteric programming language based on [brainfuck](https://en.wikipedia.org/wiki/Brainfuck#:~:text=The%20language%27s%20name%20is%20a,the%20boundaries%20of%20computer%20programming.). It currently offers the following features:
+The argyle golfing language is an esoteric programming language based on [brainfuck](https://en.wikipedia.org/wiki/Brainfuck#:~:text=The%20language%27s%20name%20is%20a,the%20boundaries%20of%20computer%20programming.).
+
+## Current ideas
 
 - `>` increment the data pointer.
   - The default behavior is to increment by one.
@@ -20,6 +22,16 @@ The argyle golfing language is an esoteric programming language based on [brainf
 - `,` accept a line of input and store it at the current pointer.
 - `(` opens a capture group.
 - `)` closes the current capture group.
+
+### Logic
+
+- `?` if.
+- `:` else.
+- `!` not.
+- `^` xor.
+- `&` and.
+- `|` or.
+- `~` nor.
 
 ## Hello World
 
